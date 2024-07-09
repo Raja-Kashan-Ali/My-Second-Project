@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PSD</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+    }
+
+    #container-1 {
+      display: flex;
+    }
+
+    #one {
+      background: rgb(26, 46, 53);
+      width: 55%;
+      height: 700px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .one-2 {
+      display: flex;
+    }
+
+    .one-2 p {
+
+      color: white;
+      font-size: 24px;
+    }
+
+    .one-2 img {
+      width: 40px;
+      height: 40px;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 5px;
+    }
+
+
+    #two h1 {
+      width: 400px;
+      height: 110px;
+      font-size: 42px;
+      font-weight: bold;
+    }
+
+    #two p {
+      width: 690px;
+      height: 50px;
+      font-size: 16px;
+      margin-top: 50px;
+    }
+
+    .two-2 {
+      color: white;
+      position: absolute;
+      padding-top: 160px;
+      padding-left: 150px;
+    }
+
+    #two button {
+      width: 160px;
+      height: 48px;
+      font-size: 15px;
+    }
+
+    .button-1 {
+      background-color: rgb(255, 79, 90);
+      color: white;
+      border: none;
+    }
+
+    .button-2 {
+      background-color: white;
+      color: black;
+      margin-left: 8px;
+      border: none;
+    }
+
+    .button-1:hover {
+      background: transparent;
+      color: rgb(255, 79, 90);
+      border: 1px solid rgb(255, 79, 90);
+    }
+
+    .button-2:hover {
+      background: transparent;
+      color: white;
+      border: 1px solid white;
+    }
+
+    .three-2 i {
+      color: white;
+      display: flex;
+      float: right;
+      justify-content: end;
+      width: 100px;
+      margin-top: 30px;
+      margin-right: 40px;
+    }
+
+    #three {
+      background: rgb(28, 187, 180);
+      width: 45%;
+      height: 700px;
+    }
+
+    .three-2 img {
+      margin-top: 150px;
+      margin-left: 50px;
+      width: 500px;
+      height: 450px;
+    }
+
+    .heading-1 {
+      margin-right: 140px;
+      margin-top: 70px;
+      float: right;
+      width: 700px;
+      height: 300px;
+    }
+
+    .heading-1 h1 {
+      font-size: 26px;
+      font-weight: 800;
+    }
+
+    .heading-1 p {
+
+      font-size: 17px;
+      line-height: 1.3;
+    }
+
+    #four {
+
+      margin-top: 100px;
+      margin-left: 200px;
+
+    }
+
+    #container-2 img {
+      width: 450px;
+    }
+
+    #container-2 button {
+      margin-top: 30px;
+    }
+
+    .button-3 {
+      background-color: rgb(255, 79, 90);
+      color: white;
+      width: 160px;
+      height: 45px;
+      font-size: 15px;
+      border: none;
+    }
+
+    .button-4 {
+      background-color: rgb(26, 46, 53);
+      color: white;
+      width: 160px;
+      height: 45px;
+      font-size: 15px;
+      margin-left: 5px;
+      border: none;
+    }
+
+    .button-3:hover {
+      background: transparent;
+      color: rgb(255, 79, 90);
+      border: 1px solid rgb(255, 79, 90);
+    }
+
+    .button-4:hover {
+      background: transparent;
+      color: rgb(26, 46, 53);
+      border: 1px solid black;
+    }
+
+
+    #container-3 {
+      margin-top: 100px;
+      width: 100%;
+      height: 600px;
+      background: rgb(28, 187, 180);
+    }
+
+    #container-3 h1 {
+      color: white;
+      padding-top: 90px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 800;
+
+    }
+
+    #container-3 u {
+      text-underline-offset: 6px;
+      text-decoration-thickness: 1px;
+    }
+
+    .icons img {
+
+      width: 88px;
+    }
+
+    .first-img {
+
+      margin-top: 40px;
+    }
+
+    .second-img {
+
+      margin-top: 60px;
+    }
+
+    .img-one {
+      margin-left: 300px;
+    }
+
+    .img-two {
+      margin-left: 200px;
+    }
+
+    .img-three {
+      margin-left: 170px;
+    }
+
+    .img-four {
+      margin-left: 300px;
+    }
+
+    .img-five {
+      margin-left: 225px;
+      width: 70px !important;
+    }
+
+    .img-six {
+      margin-left: 230px;
+    }
+
+    #container-3 span {
+      color: white;
+      font-size: 20px;
+      position: relative;
+      top: 40px;
+      right: 100px;
+    }
+
+
+    .cont-4 {
+      display: flex;
+      justify-content: center;
+    }
+
+    .cont-4 img {
+      width: 850px;
+    }
+
+    .about-4 {
+
+      text-align: center;
+    }
+
+    .p-4 {
+      font-size: 17px;
+      width: 1200px;
+      margin: auto;
+    }
+
+    .button-4 {
+      margin-top: 25px;
+      color: rgb(255, 79, 90);
+      color: white;
+      width: 160px;
+      height: 45px;
+      font-size: 15px;
+      border: none;
+    }
+
+    .button-4:hover {
+      background: transparent;
+      color: rgb(255, 79, 90);
+      border: 1px solid rgb(255, 79, 90);
+    }
+
+    .button-8 {
+      margin-top: 25px;
+      color: white;
+      background: rgb(255, 79, 90);
+      width: 160px;
+      height: 45px;
+      font-size: 15px;
+      border: none;
+    }
+
+    .button-8:hover {
+      background: transparent;
+      color: rgb(255, 79, 90);
+      border: 1px solid rgb(255, 79, 90);
+    }
+
+    #container-5 {
+      width: 700px;
+      height: 150px;
+    }
+
+    #container-5 span {
+      color: rgb(255, 86, 90);
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 0.5px;
+    }
+
+    #container-5 h1 {
+      font-size: 32px;
+      font-weight: 780;
+    }
+
+    #main-5 {
+      margin-left: 100px;
+      margin-top: 70px;
+    }
+
+    .has {
+      margin-left: 40px;
+    }
+
+    .cash {
+      display: flex;
+      margin: 0 40px;
+
+    }
+
+    .cash-img {
+      background-color: rgb(28, 187, 180);
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 15px;
+      margin-top: 15px;
+    }
+
+    .cash .cash-img img {
+      margin: 18px 45px 0 0;
+      width: 45px;
+      padding-left: 20px;
+      height: 45px;
+    }
+
+    .cash-content {
+      margin-left: 15px;
+      margin-bottom: 10px;
+    }
+
+    .cash-content span {
+      position: relative;
+      top: 20px;
+    }
+
+    #paid {
+      display: flex;
+      margin: 0 40px;
+    }
+
+    .paid-img {
+      background-color: rgb(26, 46, 53);
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 15px;
+      margin-top: 15px;
+
+    }
+
+    .paid-img:hover {
+      background-color: rgb(28, 187, 180);
+    }
+
+    .paid-img .wtf-img {
+      margin: 18px 45px 0 0;
+      width: 45px;
+      padding-left: 20px;
+      height: 45px;
+
+
+    }
+
+    .paid-content {
+      margin-left: 15px;
+      margin-bottom: 10px;
+    }
+
+    .paid-content span {
+      position: relative;
+      top: 20px;
+    }
+
+    #world {
+      display: flex;
+      margin: 0 40px;
+
+    }
+
+    .world-img {
+      background-color: rgb(26, 46, 53);
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 15px;
+      margin-top: 15px;
+
+    }
+
+    .world-img:hover {
+      background-color: rgb(28, 187, 180);
+    }
+
+    .world-img .wtf-world {
+      margin: 18px 45px 0 0;
+      width: 45px;
+      padding-left: 20px;
+      height: 45px;
+    }
+
+    .world-content {
+      margin-left: 15px;
+      margin-bottom: 10px;
+    }
+
+    .world-content span {
+      position: relative;
+      top: 20px;
+    }
+
+    #customer {
+      display: flex;
+      margin: 0 40px;
+
+    }
+
+    .customer-img {
+      background-color: rgb(26, 46, 53);
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 15px;
+      margin-top: 15px;
+
+    }
+
+    .customer-img:hover {
+      background-color: rgb(28, 187, 180);
+    }
+
+    .customer-img .wtf-customer {
+      margin: 18px 45px 0 0;
+      width: 45px;
+      padding-left: 20px;
+      height: 45px;
+    }
+
+    .customer-content {
+      margin-left: 15px;
+    }
+
+    .customer-content span {
+      position: relative;
+      top: 20px;
+    }
+
+    .free {
+      float: right;
+      position: relative;
+      bottom: 140px;
+      right: 60px;
+    }
+
+    .free img {
+      width: 700px;
+    }
+
+
+    #container-6 {
+      width: 100%;
+
+      display: flex;
+
+
+    }
+
+    .test {
+
+      position: relative;
+      bottom: 90px;
+      left: 665px;
+      font-size: 30px;
+      font-weight: 800;
+
+    }
+
+    .box {
+      margin-left: 160px;
+      box-sizing: border-box;
+      width: 790px;
+      background-color: white;
+      box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.2);
+      text-align: center;
+      padding: 45px 65px 35px 65px;
+    }
+
+    .box h1 {
+      font-size: 22px;
+      font-weight: 800;
+    }
+
+    .box p {
+
+
+      font-size: 17px;
+    }
+
+    #container-7 {
+      width: 100%;
+      height: 650px;
+      background-color: rgb(26, 46, 53);
+    }
+
+    .lol {
+      margin-top: 110px;
+      padding-top: 150px;
+      padding-left: 150px;
+    }
+
+    .lol span {
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      position: relative;
+      bottom: 30px;
+    }
+
+    .lol-2 {
+      display: flex;
+      justify-content: end;
+      position: relative;
+      bottom: 50px;
+      right: 90px;
+
+    }
+
+    .lol-2 img {
+      width: 30px;
+      margin: 5px;
+    }
+
+    .main-1 {
+      margin-left: 150px;
+      width: 200px;
+      height: 200px;
+    }
+
+    .main-1 a {
+      margin-left: -40px;
+      color: white;
+      text-decoration: none;
+
+    }
+
+    .main-1 ul {
+      list-style: none;
+      line-height: 25px;
+    }
+
+    .main-2 {
+      margin-left: 50px;
+      width: 270px;
+      height: 250px;
+    }
+
+    .main-3 {
+      margin-left: 130px;
+      width: 190px;
+      height: 300px;
+    }
+
+    .main-4 {
+      margin-left: 100px;
+      width: 200px;
+      height: 200px;
+    }
+
+    .main-4 input {
+      width: 240px;
+      height: 40px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .main-4 ::placeholder {
+      font-size: medium;
+      font-weight: 600;
+    }
+
+    .main-lol {
+
+      display: flex;
+      color: white;
+    }
+
+    .main-lol h2 {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .main-lol p {
+      font-size: 17px;
+      line-height: 22px;
+    }
+
+    .button-5 {
+      margin-top: 25px;
+      background-color: rgb(255, 79, 90);
+      color: white;
+      width: 160px;
+      height: 45px;
+      font-size: 15px;
+      border: 1px solid white;
+
+    }
+
+    .button-5:hover {
+      background: transparent;
+      color: rgb(255, 79, 90);
+      border: 1px solid rgb(255, 79, 90);
+    }
+
+    .container-8 {
+      display: flex;
+      margin-left: 380px;
+
+    }
+
+    .container-8 span {
+      color: white;
+      margin-left: 30px;
+      position: relative;
+      bottom: 10px;
+    }
+
+    .two-4 {
+      margin-left: 100px;
+    }
+
+    .three-3 {
+      margin-left: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container-1">
+    <div id="one">
+      <div class="one-2">
+        <img src="img/logo.png">
+        <p class="two">Spering</p>
+      </div>
+
+      <div id="two">
+        <div class="two-2" id="container-0">
+          <h1>YOU CAN <br> HIRE FREELANCER HERE</h1>
+          <p>It is a long established fact that a reader will be distracted by the readable content of <br>a page</p>
+          <br>
+          <button class="button-1"> About Us </button>
+          <button class="button-2"> Get A Quote </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="three">
+      <div class="three-2">
+        <i class="fa-solid fa-bars"></i>
+        <img src="img/slider-img.png">
+
+      </div>
+    </div>
+  </div>
+
+
+  <div id="container-2">
+    <div id="four">
+      <div class="four-3">
+        <img src="img/experience-img.jpg">
+        <div class="heading-1">
+          <h1>BEST EXPERINCED FREELANCER HERE</h1>
+
+          <p>It is a long established fact that a reader will be distracted by the readable<br> content of a page when
+            looking at its layout. The point of using Lorem Ipsum is<br> that it has a more-or-less normal distribution
+            of letters, as</p>
+          <button class="button-3"> Read More </button>
+          <button class="button-4"> Hire </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div id="container-3">
+
+    <h1><u>CATEGORY</u></h1>
+
+    <div class="icons">
+
+      <div class="first-img">
+        <img class="img-one" src="img/c1.png"><span class="art-1">Design & Arts</span>
+        <img class="img-two" src="img/c2.png"><span>Web Development</span>
+        <img class="img-three" src="img/c3.png"><span>SEO Markting</span>
+      </div>
+
+      <div class="second-img">
+        <img class="img-four" src="img/c4.png"><span>Video Edting</span>
+        <img class="img-five" src="img/c5.png"><span>Logo Design</span>
+        <img class="img-six" src="img/c6.png"><span>Game Design</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="container-4">
+    <div class="cont-4">
+      <img src="img/about-img.jpg">
+    </div>
+
+    <div class="about-4">
+      <h1>ABOUT SPERING COMPANY</h1>
+      <div class="p-4">
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+          some form, by injected humour,<br> or randomised words which don't look even slightly believable. If youThere
+          are many variations of passages of Lorem Ipsum available, but the<br> majority have suffered alteration in
+          form, by injected humour, or randomised words which don't look even slightly believable. If you</p>
+        <button class="button-8"> Read More </button>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="container-5">
+    <div id="main-5">
+      <h1 class="has">WORK FREELANER HAS DONE</h1>
+
+
+      <div class="cash">
+        <div class="cash-img">
+          <img src="img/f1.png">
+        </div>
+        <div class="cash-content">
+          <span>$250 Million</span>
+          <h1>Paid to Freelancers</h1>
+        </div>
+      </div>
+
+      <div id="paid">
+        <div class="paid-img">
+          <img class="wtf-img" src="img/f2.png">
+        </div>
+        <div class="paid-content">
+          <span>2 Million</span>
+          <h1>Paid Invoices</h1>
+        </div>
+      </div>
+
+      <div id="world">
+        <div class="world-img">
+          <img class="wtf-world" src="img/f3.png">
+        </div>
+        <div class="world-content">
+          <span>700,000</span>
+          <h1>Worldwide Freelancer</h1>
+        </div>
+      </div>
+
+      <div id="customer">
+        <div class="customer-img">
+          <img class="wtf-customer" src="img/f4.png">
+        </div>
+        <div class="customer-content">
+          <span>98%</span>
+          <h1>Customer <br>Satisfaction Rate</h1>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="free">
+    <img src="img/freelance-img.jpg">
+  </div>
+  <div id="container-6">
+    <h1 class="test">TESTIMONIAL</h1>
+    <div class="box">
+      <h1>John Hissona</h1>
+      <p>passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,
+        or randomised words which don't look even slightly believable. If youThere are many variations of passages of
+        Lorem Ipsum available, but the majority have suffered alteration in s</p>
+      <img src="img/quote.png">
+    </div>
+  </div>
+
+
+  <div id="container-7">
+    <div class="lol">
+      <img src="img/logo.png"><span>Spering</span>
+    </div>
+    <div class="lol-2">
+      <img src="img/fb.png">
+      <img src="img/twitter.png">
+      <img src="img/linkedin.png">
+      <img src="img/instagram.png">
+      <img src="img/youtube.png">
+    </div>
+    <div class="main-lol">
+      <div class="main-1">
+        <h2>USEFUL LINK</h2>
+        <ul>
+          <li><a href="#container-1">Home</a></li>
+          <li><a href="#container-0">About</a></li>
+          <li><a href="#container-5">Work</a></li>
+          <li><a href="#container-3">Category</a></li>
+        </ul>
+      </div>
+      <div class="main-2">
+        <h2>OFFICES</h2>
+        <p>Readable content of a page when looking at its<br> layoutreadable content of a page when looking at its
+          layout</p>
+      </div>
+      <div class="main-3">
+        <h2>INFORMATION</h2>
+        <p>Readable content of a page when looking at its<br> layoutreadable<br> content of a page whenlooking at
+          its<br> layout</p>
+      </div>
+      <div class="main-4">
+        <h2>NEWSLETTER</h2>
+        <form action="" method="post">
+
+          <label></lable> <input type="email" name="Fname" placeholder="Email" style="padding-left: 10px;">
+        </form>
+        <button class="button-5"> SUBSCRIBE </button>
+      </div>
+    </div>
+    <div class="container-8">
+      <div class="one-1">
+        <img src="img/location.png"> <span>Location</span>
+      </div>
+      <div class="two-4">
+        <img src="img/mail.png"> <span>demo@gmail.com</span>
+      </div>
+      <div class="three-3">
+        <img src="img/call.png"> <span>Call +01 1234567890</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
